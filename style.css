@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.resume-contents {
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.left-section {
+    grid-column: span 2;
+    height: 100%;
+    background-color: #ff9898;
+}
+
+.right-section {
+    grid-column: span 5;
+    height: 100%;
+    background-color: #681f1f;
+}
+
+.left-section-contents {
+    padding: 2rem 2rem;
+}
+.profile {
+    width: 100%;
+    border-bottom: 2px solid #ffbcbc;
+}
+
+.profile .profile-image {
+    width: 100%;
+    border-radius: 100%;
+}
