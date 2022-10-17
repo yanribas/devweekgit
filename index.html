@@ -5,61 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Curriculo - DevWeek</title>
+    <title>Document</title>
+    <script></script>
   </head>
   <body>
-    <main class="resume-contents">
-      <section class="left-section">
-        <section class="left-section-content">
-          <div class="profile">
-            <img
-              src="img/foto_perfil.jpg"
-              alt="Profile Photo"
-              class="profile-image"
-            />
-            <p class="name">Yan Ribeiro</p>
-            <p class="profession">
-              Programador Web & <br />
-              Software Engineer
-            </p>
-          </div>
-          <div class="contact-info">
-            <p class="left-title">Contato</p>
-            <ul>
-              <li><i class="fa fa-envelope"></i> yan.ribeiro@hotmail.com</li>
-              <li><i class="fa fa-phone"></i> 11 99304-0723</li>
-              <li><i class="fa fa-github"></i> site github</li>
-              <li>
-                <i class="fa fa-globe"></i> Site com os meus dados de
-                repositórios
-              </li>
-            </ul>
-          </div>
-          <div class="skills">
-            <p class="left-title">Skills</p>
-            <ul>
-              <li><p>Git</p></li>
-              <li><p>PHP 7 & 8</p></li>
-              <li><p>javascript</p></li>
-              <li><p>CorelDraw</p></li>
-              <li><p>Figma</p></li>
-              <li><p>code ignite 3 & 4</p></li>
-            </ul>
-          </div>
-        </section>
-      </section>
-      <section class="right-section">
-        <div class="right-section-contents">
-          <section class="about gap">
-            <div class="right-title">Sobre mim</div>
-            <p class="about-me-contents">
-              Olá, meu nome é Yan <br />
-              Um pouco sobre mim e o que faço <br />
-              Um pouco das minhas habilidades
-            </p>
-          </section>
-        </div>
-      </section>
-    </main>
+    <header>
+      <h2>App Lista de supermercado</h2>
+    </header>
+    <div class="lista-cadastro">
+      <input type="text" placeholder="Nome do Produto.." name="nome_produto" />
+      <input
+        type="text"
+        placeholder="Valor do Produto.."
+        name="valor_produto"
+      />
+      <input type="submit" value="Cadastrar" name="acao" />
+    </div>
+    <div class="lista-produtos">
+      
+    </div>
+    <div class="soma-produto">
+      <h1>Total da Lista: R$0.00</h1>
+    </div>
+    <button name="limpar" value="Limpar">Limpar Lista</button>
   </body>
+  <script src="supermercado.js"></script>
 </html>
